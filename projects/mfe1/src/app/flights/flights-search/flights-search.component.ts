@@ -14,10 +14,11 @@ export class FlightsSearchComponent {
   }
 
   search(): void {
-    alert('Not implemented for this demo!');
+    this.service.login('Max  Flights', null);
+    console.log('Not implemented for this demo!');
   }
 
   terms(): void {
-    alert('Not implemented for this demo!');
+    console.log('Not implemented for this demo!');
   }
 }
